@@ -1,5 +1,4 @@
 import DockNav from "@/components/Navbar";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import Footer from "@/components/Footer";
 import React from "react";
 import type { Metadata } from "next";
@@ -33,7 +32,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* Bottom dock nav — rendered after content so it sits above everything */}
       <DockNav />
       {/* Fixed WhatsApp button — always visible */}
-      <WhatsAppButton />
+
     </>
   );
 }

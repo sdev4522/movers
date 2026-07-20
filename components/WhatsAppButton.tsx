@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "motion/react";
 export default function WhatsAppButton() {
   const [hovered, setHovered] = useState(false);
 
-  const phone = "918950982536"; // Replace with real number
+  const phone = "918619545353"; // Replace with real number
   const message = encodeURIComponent(
     "Hi! I'm interested in your packers & movers services. Could you please give me a free quote?",
   );
@@ -13,7 +13,7 @@ export default function WhatsAppButton() {
 
   return (
     <div
-      className="fixed bottom-24 right-5 z-50 flex flex-col items-end gap-2"
+      className=""
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
@@ -53,8 +53,8 @@ export default function WhatsAppButton() {
         {/* WhatsApp SVG icon */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="28"
-          height="28"
+          width="20"
+          height="20"
           viewBox="0 0 24 24"
           fill="white"
           aria-hidden="true"

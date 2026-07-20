@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Home, Package, GitCommitHorizontal, Star, Phone } from "lucide-react";
+import WhatsAppButton from "./WhatsAppButton";
 
 const navItems = [
   { label: "Home", href: "#hero", Icon: Home },
@@ -159,6 +160,8 @@ export default function DockNav() {
         >
           Free Quote
         </a>
+        {/* WhatsApp button */}
+        <WhatsAppButton />
       </div>
     </motion.nav>
   );
