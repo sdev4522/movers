@@ -34,7 +34,7 @@ export default function WhyUsSection() {
             eyebrow="Why Choose Us"
             title="The Diamondsafety difference."
             subtitle="We've built our reputation on trust, transparency, and taking genuine care of our customers and their belongings."
-            align="start"
+            align="left"
           />
         </div>
 

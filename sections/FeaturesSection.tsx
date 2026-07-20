@@ -34,7 +34,7 @@ export default function ServicesSection() {
             eyebrow="Our Services"
             title="Everything your move needs, handled."
             subtitle="From careful packing to safe delivery — we manage every detail so you can focus on your new beginning."
-            align="start"
+            align="left"
           />
         </div>
 

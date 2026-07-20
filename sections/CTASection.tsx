@@ -17,7 +17,7 @@ export default function CoverageSection() {
           eyebrow="Service Coverage"
           title="Bangalore is home. Everywhere else is a destination."
           subtitle="Based in Koramangala, we cover every corner of Bangalore and offer full-service interstate moves across South India and beyond."
-          align="start"
+          align="left"
         />
 
         {/* Bangalore home base card */}

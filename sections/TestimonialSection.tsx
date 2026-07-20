@@ -19,7 +19,7 @@ export default function TestimonialSection() {
             eyebrow="Customer Stories"
             title="5,000+ happy moves — hear from them."
             subtitle="Real customers, real moves. We don't just move boxes — we move lives, and we take that seriously."
-            align="start"
+            align="left"
           />
         </div>
 

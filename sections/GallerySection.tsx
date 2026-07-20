@@ -38,7 +38,7 @@ export default function GallerySection() {
             eyebrow="Our Work"
             title="See us in action."
             subtitle="From carefully wrapping your valuables to placing the last piece of furniture — we take pride in every step."
-            align="start"
+            align="left"
           />
         </div>
 
