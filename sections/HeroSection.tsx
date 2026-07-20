@@ -69,7 +69,7 @@ export default function HeroSection() {
         <Globe />
       </div>
 
-      <div className="relative z-10 grid grid-cols-1 lg:grid-cols-[1fr_480px] gap-10 lg:gap-6 items-center w-full max-w-7xl mx-auto md:px-8">
+      <div className="relative z-10 mt-12 md:mt-2 grid grid-cols-1 lg:grid-cols-[1fr_480px] gap-10 lg:gap-6 items-center w-full max-w-7xl mx-auto md:px-8">
         <div className="max-w-[680px]">
           {/* Eyebrow */}
           <motion.div
