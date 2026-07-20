@@ -9,7 +9,7 @@ const navItems = [
   { label: "Services", href: "#services", Icon: Package },
   { label: "Process", href: "#process", Icon: GitCommitHorizontal },
   { label: "Testimonials", href: "#testimonials", Icon: Star },
-  { label: "Contact", href: "#contact", Icon: Phone },
+  { label: "Contact", href: "tel:918950982536", Icon: Phone },
 ];
 
 export default function DockNav() {
@@ -161,7 +161,7 @@ export default function DockNav() {
           Free Quote
         </a>
         {/* WhatsApp button */}
-        <WhatsAppButton />
+        <WhatsAppButton Class="md:hidden" />
       </div>
     </motion.nav>
   );

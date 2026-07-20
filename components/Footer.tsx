@@ -100,7 +100,7 @@ export default function Footer() {
                 <Facebook size={18} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/diamond_safety_logistics_"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram"
@@ -228,7 +228,7 @@ export default function Footer() {
                 />
                 <div>
                   <a
-                    href="tel:+919XXXXXXXXX"
+                    href="tel:+918950982536"
                     className="text-[15px] block transition-colors duration-[180ms]"
                     style={{ color: "#6E6E73" }}
                     onMouseEnter={(e) =>
@@ -238,7 +238,7 @@ export default function Footer() {
                       (e.currentTarget.style.color = "#6E6E73")
                     }
                   >
-                    +91 9X XXXX XXXX
+                    +91 8950982536
                   </a>
                   <p className="text-[13px]" style={{ color: "#86868B" }}>
                     Mon – Sat, 8 am – 8 pm
@@ -252,7 +252,7 @@ export default function Footer() {
                   style={{ color: "#0071E3" }}
                 />
                 <a
-                  href="mailto:hello@Diamondsafetypackers.in"
+                  href="mailto:info@diamondsafetypackers.in"
                   className="text-[15px] transition-colors duration-[180ms]"
                   style={{ color: "#6E6E73" }}
                   onMouseEnter={(e) =>
@@ -262,7 +262,7 @@ export default function Footer() {
                     (e.currentTarget.style.color = "#6E6E73")
                   }
                 >
-                  hello@Diamondsafetypackers.in
+                  info@diamondsafetypackers.in
                 </a>
               </li>
               <li className="flex items-start gap-3">

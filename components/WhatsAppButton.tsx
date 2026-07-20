@@ -2,7 +2,10 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
-export default function WhatsAppButton() {
+type WhatsAppButtonProps = {
+  Class?: string;
+};
+export default function WhatsAppButton({ Class }: WhatsAppButtonProps) {
   const [hovered, setHovered] = useState(false);
 
   const phone = "918619545353"; // Replace with real number
@@ -13,7 +16,7 @@ export default function WhatsAppButton() {
 
   return (
     <div
-      className=""
+      className={Class}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
