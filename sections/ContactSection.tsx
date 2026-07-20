@@ -95,7 +95,7 @@ export default function ContactSection() {
                   style={{ color: "#6E6E73" }}
                 >
                   Our team will call you within a few hours with your free
-                  quote. Thank you for choosing Bharath Packers!
+                  quote. Thank you for choosing Diamondsafety Packers!
                 </p>
               </motion.div>
             ) : (

@@ -20,7 +20,7 @@ export const testimonialsData: ITestimonial[] = [
         city: "Whitefield → Pune",
         service: "Interstate Move",
         quote:
-            "Moved from Whitefield to Pune and was nervous about the long haul. Bharath Packers handled everything perfectly — my car arrived in the same condition it left, and so did my furniture.",
+            "Moved from Whitefield to Pune and was nervous about the long haul. Diamondsafety Packers handled everything perfectly — my car arrived in the same condition it left, and so did my furniture.",
         rating: 5,
     },
     {

@@ -32,7 +32,7 @@ export default function WhyUsSection() {
         <div className="text-center mx-auto">
           <SectionTitle
             eyebrow="Why Choose Us"
-            title="The Bharath difference."
+            title="The Diamondsafety difference."
             subtitle="We've built our reputation on trust, transparency, and taking genuine care of our customers and their belongings."
             align="start"
           />
