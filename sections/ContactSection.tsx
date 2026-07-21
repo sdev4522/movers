@@ -24,6 +24,24 @@ const services = [
 export default function ContactSection() {
   const [status, setStatus] = useState<Status>("idle");
 
+  const handlePhoneChange = (e: { currentTarget: HTMLInputElement }) => {
+    const prefix = "+91 ";
+    let value = e.currentTarget.value;
+
+    if (!value.startsWith(prefix)) {
+      if (value.startsWith("+91")) {
+        value = prefix + value.slice(3).trimStart();
+      } else if (value.startsWith("91")) {
+        value = prefix + value.slice(2).trimStart();
+      } else if (value.startsWith("+")) {
+        value = prefix + value.slice(1).trimStart();
+      } else {
+        value = prefix + value.trimStart();
+      }
+      e.currentTarget.value = value;
+    }
+  };
+
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("submitting");
@@ -153,12 +171,13 @@ export default function ContactSection() {
                     type="tel"
                     required
                     pattern="[0-9+ ]{7,15}"
-                    placeholder="+91 98765 43210"
+                    placeholder="+91 "
                     className={inputClass}
                     style={{
                       color: "#1D1D1F",
                       borderColor: "rgba(0,0,0,0.12)",
                     }}
+                    onChange={handlePhoneChange}
                     onFocus={(e) => {
                       e.currentTarget.style.borderColor = "#0071E3";
                       e.currentTarget.style.boxShadow =
