@@ -3,6 +3,7 @@ import LenisScroll from "@/components/LenisScroll";
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
+import Script from "next/script";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -47,6 +48,23 @@ export default function RootLayout({
       <body>
         <LenisScroll />
         {children}
+
+        {/* 2. The External gtag.js Script */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-433VDKHD37"
+          strategy="afterInteractive"
+        />
+
+        {/* 3. The Inline Configuration Script */}
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-433VDKHD37');
+          `}
+        </Script>
       </body>
     </html>
   );
