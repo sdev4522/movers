@@ -28,10 +28,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       {children}
-      {/* <Footer /> */}
-      {/* Bottom dock nav — rendered after content so it sits above everything */}
-      {/* <DockNav /> */}
-      {/* Fixed WhatsApp button — always visible */}
+      <Footer />
+      <DockNav />
     </>
   );
 }
